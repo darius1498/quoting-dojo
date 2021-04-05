@@ -1,0 +1,93 @@
+body{
+	font-family: Arial;
+	text-align: center;
+	padding: 50px 0px;
+}
+div.center{
+	display: block;
+	text-align: center;
+}
+div.center p.error{
+	border:2px solid red;
+	color: red;
+	width: 300px;
+	padding: 10px 20px;
+	margin: auto;
+}
+form{
+	display: block;
+	padding: 20px;
+}
+form span{
+	display: block;
+	text-align: left;	
+	margin: 20px;	
+}
+form span label{
+	display: inline-block;
+	padding: 10px 30px;
+	width: 20%;
+	vertical-align: top;
+}
+form span input[type='text']{
+	display: inline-block;
+	padding: 10px 30px;
+	width: 20%;
+}
+form span textarea{
+	display: inline-block;
+	padding: 10px 30px;
+	width: 50%;
+}
+form span.buttons{
+	text-align: center;
+}
+form span.buttons input[type='submit']{
+	display: inline-block;
+	width: 25%;
+	margin: 20px;
+	padding: 10px;
+	border: 3px dashed orange;
+	font-size: 16px;
+	color: white;
+	background-color: #ff8c00;
+}
+form span.buttons a{
+	display: inline-block;
+	width: 25%;
+	margin: 20px;
+	padding: 10px;
+	border: 3px dashed orange;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	background-color: #ff8c00;
+}
+div.quotes-container{
+	display: block;
+	
+}
+div p.quote{
+	width: 400px;
+	margin: 10px auto;
+	text-align: left;
+}
+div p.name{
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	padding: 10px 20px;
+	border-bottom: 2px solid black;
+}
+
+a.back{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+	margin: 20px;
+	color: blue;
+	font-weight: bold;
+}
+
+
